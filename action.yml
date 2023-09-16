@@ -3,20 +3,8 @@ description: A Github follow tracker to easily check who recently follows/unfoll
 author: lazuee
 
 runs:
-  using: 'composite'
-  steps:
-      - uses: pnpm/action-setup@v2
-        with:
-            version: latest
-            run_install: false
-      - uses: actions/setup-node@v3
-        with:
-            node-version: 20
-            cache: "pnpm"
-      - shell: bash
-        run: pnpm install --frozen-lockfile
-      - shell: bash
-        run: pnpm start
+  using: 'node20'
+  main: 'index.js'
 
 branding:
   icon: 'activity'
