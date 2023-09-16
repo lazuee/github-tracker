@@ -1,0 +1,30 @@
+name: Update Tracker
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "*/5 * * * *"
+
+jobs:
+    track:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [20]
+                pnpm-version: [8.7.5]
+        env:
+            GH_USERNAME: ${{ secrets.GH_USERNAME }}
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        steps:
+            - uses: actions/checkout@v3
+            - uses: pnpm/action-setup@v2
+              with:
+                  version: ${{ matrix.pnpm-version }}
+                  run_install: false
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: "pnpm"
+            - shell: bash
+              run: pnpm install --frozen-lockfile
+            - shell: bash
+              run: pnpm start
