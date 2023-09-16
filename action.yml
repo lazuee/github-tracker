@@ -1,0 +1,24 @@
+name: github-tracker
+description: A Github follow tracker to easily check who recently follows/unfollowed
+author: lazuee
+
+runs:
+  using: 'composite'
+  steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+            version: latest
+            run_install: false
+      - uses: actions/setup-node@v3
+        with:
+            node-version: 20
+            cache: "pnpm"
+      - shell: bash
+        run: pnpm install --frozen-lockfile
+      - shell: bash
+        run: pnpm start
+
+branding:
+  icon: 'activity'
+  color: 'green'
