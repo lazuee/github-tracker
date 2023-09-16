@@ -12,9 +12,10 @@ Add comments below to your [README.md](README.md#L14)
 ### Result 🎉
 
 <!-- start: github-tracker -->
-| Recently Followed | Recently Unfollowed |
-| :---: | :---: |
-| [cilthepen](https://github.com/cilthepen) | [pendoescode](https://github.com/pendoescode) |
+| Recently Unfollowed |
+| :---: |
+| [cilthepen](https://github.com/cilthepen) |
+| [pendoescode](https://github.com/pendoescode) |
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
