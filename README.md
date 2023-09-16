@@ -12,6 +12,9 @@ Add comments below to your [README.md](README.md#L14)
 ### Result 🎉
 
 <!-- start: github-tracker -->
+| Recently Followed |
+| :---: |
+| [cilthepen](https://github.com/cilthepen) |
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
