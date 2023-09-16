@@ -2,23 +2,16 @@
 
 > A Github follow tracker to easily check who recently follows/unfollowed.
 
-### Environment Variables 🔑
-
-- `GH-TOKEN` - Generate your [Personal Access Token](https://github.com/settings/tokens/new?description=github-tracker&scopes=repo,gist) (required)
-
 ### How to use 🤔
 
-Add comments to your [README.md](README.md#L19)
-
+Create a [new secret](../../settings/secrets/actions/new) named `GH-TOKEN` and add your [personal access token](https://github.com/settings/tokens/new?description=github-tracker&scopes=repo,gist) as the value.  
+Add comments below to your [README.md](README.md#L14)  
 - `start: github-tracker`
 - `end: github-tracker`
 
 ### Result 🎉
 
 <!-- start: github-tracker -->
-| Recently Followed |
-| :---: |
-| [cilthepen](https://github.com/cilthepen) |
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
