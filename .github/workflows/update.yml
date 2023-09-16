@@ -5,14 +5,13 @@ on:
         - cron: "*/5 * * * *"
 
 jobs:
-    track:
+    tracker:
         runs-on: ubuntu-latest
         strategy:
             matrix:
                 node-version: [20]
                 pnpm-version: [8.7.5]
         env:
-            GH_USERNAME: ${{ secrets.GH_USERNAME }}
             GH_TOKEN: ${{ secrets.GH_TOKEN }}
         steps:
             - uses: actions/checkout@v3
