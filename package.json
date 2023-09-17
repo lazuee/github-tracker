@@ -2,6 +2,7 @@
 	"type": "module",
 	"scripts": {
 		"start": "node index.js",
+		"build": "ncc build index.js --license LICENSES.txt",
 		"format": "prettier --ignore-path .gitignore --write . --ignore-unknown"
 	},
 	"dependencies": {
@@ -9,6 +10,7 @@
 	},
 	"devDependencies": {
 		"@trivago/prettier-plugin-sort-imports": "^4.2.0",
+		"@vercel/ncc": "^0.38.0",
 		"dotenv": "^16.3.1",
 		"prettier": "^3.0.3"
 	}
