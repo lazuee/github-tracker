@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
-		"start": "node index.js",
+		"start": "node dist/index.js",
 		"build": "ncc build index.js --license LICENSES.txt",
 		"format": "prettier --ignore-path .gitignore --write . --ignore-unknown"
 	},
