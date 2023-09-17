@@ -1,13 +1,14 @@
 ## github-track
 
-> A Github follow tracker to easily check who recently follows/unfollowed.
+> A Github follower tracker that allows you to easily check who has recently followed or unfollowed you.
 
-### How to use 🤔
+### How to Use 🤔
 
-Create a [new secret](../../settings/secrets/actions/new) named `GH-TOKEN` and add your [personal access token](https://github.com/settings/tokens/new?description=github-tracker&scopes=repo,gist) as the value.  
-Add comments below to your [README.md](README.md#L14)  
+1. Create a [new secret](../../settings/secrets/actions/new) named `GH_TOKEN` and add your [personal access token](https://github.com/settings/tokens/new?description=github-tracker&scopes=repo,gist) as its value.
+2. Add the comments below to your [README.md](README.md?plain=1#L15)
 - `start: github-tracker`
 - `end: github-tracker`
+3. Copy the [update.yml](./.github/workflows/update.yml) and save it in your `.github/workflows` folder.
 
 ### Result 🎉
 

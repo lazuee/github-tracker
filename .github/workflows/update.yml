@@ -9,6 +9,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-            - uses: ./
+            - uses: lazuee/github-tracker@1.0.3
               env:
                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
