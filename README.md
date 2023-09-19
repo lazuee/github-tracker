@@ -16,8 +16,6 @@
 | Recently Followed |
 | :---: |
 | [thanhdanh27600](https://github.com/thanhdanh27600) |
-| [cilthepen](https://github.com/cilthepen) |
-| [pendoescode](https://github.com/pendoescode) |
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
