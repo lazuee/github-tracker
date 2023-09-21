@@ -13,9 +13,7 @@
 ### Result 🎉
 
 <!-- start: github-tracker -->
-| Recently Followed |
-| :---: |
-| [thanhdanh27600](https://github.com/thanhdanh27600) |
+
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
