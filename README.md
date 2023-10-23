@@ -13,9 +13,7 @@
 ### Result 🎉
 
 <!-- start: github-tracker -->
-| Recently Followed | Recently Unfollowed |
-| :---: | :---: |
-| [reselling](https://github.com/reselling) | [crownreach](https://github.com/crownreach) |
+
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
