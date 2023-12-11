@@ -13,7 +13,9 @@
 ### Result 🎉
 
 <!-- start: github-tracker -->
-
+| Recently Followed | Recently Unfollowed |
+| :---: | :---: |
+| [emreyaykin](https://github.com/emreyaykin) | [Papxait](https://github.com/Papxait) |
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
