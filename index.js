@@ -5,8 +5,8 @@ const octokit = new Octokit({ auth: process.env?.GH_TOKEN ?? process.env?.GITHUB
 const [owner, repo] = (process.env.GH_REPOSITORY ?? process.env?.GITHUB_REPOSITORY)?.split("/") ?? [];
 const readmePath = process.env?.README_PATH ?? "README.md";
 const description =
-  "::Github Tracker:: List followers/unfollowers --- Recent followers/unfollowers automatically removed after 3 days";
-const removeRecentAfter = 3 * 24 * 60 * 60 * 1000;
+  "::Github Tracker:: List followers/unfollowers --- Recent followers/unfollowers automatically removed after 7 days";
+const removeRecentAfter = process.env?.REMOVE_RECENT_AFTER ?? 7 * 24 * 60 * 60 * 1000;
 
 const updateOrCreateGist = async () => {
   const gist_id = await octokit.gists
