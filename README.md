@@ -13,9 +13,7 @@
 ### Result 🎉
 
 <!-- start: github-tracker -->
-| Recently Followed | Recently Unfollowed |
-| :---: | :---: |
-| [johnxiler](https://github.com/johnxiler) | [Morteza723](https://github.com/Morteza723) |
+
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
