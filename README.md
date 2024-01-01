@@ -13,7 +13,9 @@
 ### Result 🎉
 
 <!-- start: github-tracker -->
-
+| Recently Followed | Recently Unfollowed |
+| :---: | :---: |
+| [getintorj](https://github.com/getintorj) | [Gracia623](https://github.com/Gracia623) |
 <!-- end: github-tracker -->
 
 ### Star the project 🌟
